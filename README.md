@@ -6,15 +6,15 @@ It showcases my skills, projects, and contact information in a clean and respons
 ---
 
 ## 🚀 Live Demo
-🔗 https://yourusername.github.io/your-repository-name/
+🔗 https://asif-ansari2497.github.io/
 
 ---
 
 ## 🔥 Features
-- Responsive UI for all devices  
-- Smooth animations  
-- Skills, education & projects section  
-- Contact and social links  
+- Fully responsive design
+- Smooth animations
+- Skills, education & projects section
+- Contact and social links
 
 ---
 
@@ -24,8 +24,8 @@ HTML • CSS • JavaScript • Font Awesome • Google Fonts
 ---
 
 ## 📬 Contact
-📧 Email: yourmail@example.com  
-🐱 GitHub: https://github.com/yourusername
+📧 Email: (add your email)  
+🐱 GitHub: https://github.com/asif-ansari2497
 
 ---
 
