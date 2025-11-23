@@ -1157,5 +1157,35 @@
             setTimeout(typeLoop, 400);
         })();
     </script>
+    <script>
+    const typingElement = document.getElementById("typing");
+    const words = ["BCA Student", "Developer", "Web Designer", "AI Enthusiast", "Learner"];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function typeEffect() {
+        const currentWord = words[wordIndex];
+        const currentText = currentWord.substring(0, charIndex);
+        typingElement.textContent = currentText;
+
+        if (!isDeleting && charIndex < currentWord.length) {
+            charIndex++;
+        } else if (isDeleting && charIndex > 0) {
+            charIndex--;
+        } else {
+            if (!isDeleting) {
+                setTimeout(() => { isDeleting = true; }, 1000);
+            } else {
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+            }
+        }
+        setTimeout(typeEffect, isDeleting ? 100 : 150);
+    }
+
+    typeEffect();
+</script>
+
 </body>
 </html>
